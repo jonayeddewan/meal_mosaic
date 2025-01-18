@@ -23,4 +23,4 @@ MealMosaic is a Flutter-based mobile application designed for university student
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/MealMosaic.git
+   git clone https://github.com/jonayeddewan/meal_mosaic.git
