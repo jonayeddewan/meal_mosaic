@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "382277368027",
+    "project_id": "mealmosaic-d9376",
+    "storage_bucket": "mealmosaic-d9376.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:382277368027:android:a6fde4271ebdda741cb4fe",
+        "android_client_info": {
+          "package_name": "com.example.meal_mosaic"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBcWHKfi7DGQ55740YxlWLyM6YjPQV1Qvk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
