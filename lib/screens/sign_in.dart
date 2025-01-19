@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:meal_mosaic/screens/home.dart';
+import 'package:meal_mosaic/screens/sign_up.dart';
 
 class SignInScreen extends StatefulWidget {
   const SignInScreen({super.key});
@@ -38,6 +40,8 @@ class _SignInScreenState extends State<SignInScreen> {
                     ),
                   ),
                   TextField(
+                    style: const TextStyle(color: Colors.white),
+                    keyboardType: TextInputType.emailAddress,
                     decoration: InputDecoration(
                       hintText: 'Email',
                       hintStyle: const TextStyle(color: Colors.white),
@@ -53,6 +57,8 @@ class _SignInScreenState extends State<SignInScreen> {
                   ),
                   const SizedBox(height: 20),
                   TextField(
+                    style: const TextStyle(color: Colors.white),
+                    obscureText: true,
                     decoration: InputDecoration(
                       hintText: 'Password',
                       hintStyle: const TextStyle(color: Colors.white),
@@ -100,7 +106,13 @@ class _SignInScreenState extends State<SignInScreen> {
                     ],
                   ),
                   ElevatedButton(
-                    onPressed: () {},
+                    onPressed: () {
+                      Navigator.pushReplacement(
+                        context,
+                        MaterialPageRoute(
+                            builder: (context) => const HomeScreen()),
+                      );
+                    },
                     style: ElevatedButton.styleFrom(
                       backgroundColor: Colors.white,
                       shape: RoundedRectangleBorder(
@@ -118,7 +130,13 @@ class _SignInScreenState extends State<SignInScreen> {
                         style: TextStyle(color: Colors.white),
                       ),
                       TextButton(
-                        onPressed: () {},
+                        onPressed: () {
+                          Navigator.pushReplacement(
+                            context,
+                            MaterialPageRoute(
+                                builder: (context) => const SignUpScreen()),
+                          );
+                        },
                         child: const Text(
                           'Sign Up',
                           style: TextStyle(color: Colors.white),
