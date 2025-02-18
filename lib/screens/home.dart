@@ -28,14 +28,14 @@ class HomePageScreen extends StatelessWidget {
       },
     ];
     return Scaffold(
+      backgroundColor: const Color(0xffDCF6E6),
       drawer: const Drawer(),
       appBar: AppBar(
-        backgroundColor: Colors.white,
+        backgroundColor: const Color(0xffDCF6E6),
         title: const Text('Meal Mosaic'),
       ),
       body: Container(
-        color: Colors
-            .white, // Ensure the entire body has the same background color
+        color: const Color(0xffDCF6E6),
         child: Column(
           children: [
             // Wrapping CarouselSlider with a Container to apply margin
@@ -99,6 +99,7 @@ class HomePageScreen extends StatelessWidget {
                     },
                     borderRadius: BorderRadius.circular(20.0),
                     child: Card(
+                      color: const Color(0xff1E6F5C),
                       elevation: 5.0,
                       shape: RoundedRectangleBorder(
                         borderRadius: BorderRadius.circular(20.0),
@@ -128,7 +129,7 @@ class HomePageScreen extends StatelessWidget {
           ],
         ),
       ),
-      bottomNavigationBar: const CustomNavigationBarBottom(),
+      // bottomNavigationBar: const CustomNavigationBarBottom(),
     );
   }
 }

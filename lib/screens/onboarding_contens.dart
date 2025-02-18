@@ -24,9 +24,9 @@ List<OnboardingContents> contents = [
         "Effortlessly purchase meal tokens for lunch and dinner, right from your fingertips.",
   ),
   OnboardingContents(
-    title: "Get notified when work happens",
-    image: "assets/images/image3.png",
+    title: "Welcome To MealMosaic",
+    image: "assets/images/image1.png",
     desc:
-        "Track your transactions, recharge your wallet, and stay on top of your dining budget with ease.",
+    "Seamlessly manage your meal tokens and dining experience at your Hall!",
   ),
 ];
